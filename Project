@@ -1,0 +1,42 @@
+Individual Project
+
+Imagine that you are a data analytics consultant for a firm who wants to get projected 
+sale price of houses from house sale advertisements currently in the market, ignoring 
+their asking price. The housing data (housing.csv) collected by the firm includes 500 sales 
+in the last six months and include the variables. The last column is the outcome variable.
+
+    elevation: Elevation of the base of the house
+
+    dist_am1: Distance to Amenity 1
+
+    dist_am2: Distance to Amenity 2
+
+    dist_am3: Distance to Amenity 3
+
+    bath: Number of bathrooms
+
+    sqft: Square footage of the house
+
+    parking: Parking type 
+        "Not Provided" => parking is not provided as part of the house but street parking may be available
+        "No Parking"=> Parking is not available near the house.
+        You may also choose to merge the above two categories to a single "Parking not available" category
+
+    precip: Amount of precipitation
+
+    price: Final House Sale Price
+
+Now develop the best possible linear regression model to predict the house sale price using the variables
+using the techniques that you have learnt in this course. Interpret the variables included and provide 
+explanation for your choice of best model.
+
+To be submitted: 2 files
+
+    (Commented) R Script file: This should contain the code you used to analyse the data as well as s
+    ensible comments indicating what was done at each stage (no page limit). This should be a plain text file.
+
+    Executive summary: This is a summary of the analysis performed with plots, tables, results and 
+    conclusions/recommendations based on the analysis. Maximum of 2 pages total (following the template)
+    in at least size 11 font (margins of 0.5 inch at least). Do not include unnecessary figures and make 
+    sure figures are not too small to see. This should be a pdf file.
+    
